@@ -278,6 +278,60 @@ a:hover {
     -ms-transform: rotate(0deg) scale(1) skew(0deg) translate(-100px);
 }
 
+.trans-below {
+	font-size: 40px;
+	font-family: 'Wire One', sans-serif;
+	height: 40px;
+	width: 70px;
+	padding-left: 10px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin: 20px;
+	color: #0067e7;
+	border: 1px solid #0067e7;
+	cursor: default;
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+
+}
+.trans-below:hover {
+   -moz-transform: scale(1) translateX(0px) translateY(100px);
+   -webkit-transform: scale(1) translateX(0px) translateY(100px);
+   -o-transform: scale(1) translateX(0px) translateY(100px);
+   -ms-transform: scale(1) translateX(0px) translateY(100px);
+   transform: scale(1) translateX(0px) translateY(100px);
+}
+
+.trans-above {
+	font-size: 40px;
+	font-family: 'Wire One', sans-serif;
+	height: 40px;
+	width: 70px;
+	padding-left: 10px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin: 20px;
+	color: #0067e7;
+	border: 1px solid #0067e7;
+	cursor: default;
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+
+}
+.trans-above:hover {
+   -moz-transform: scale(1) translateX(0px) translateY(-100px);
+   -webkit-transform: scale(1) translateX(0px) translateY(-100px);
+   -o-transform: scale(1) translateX(0px) translateY(-100px);
+   -ms-transform: scale(1) translateX(0px) translateY(-100px);
+   transform: scale(1) translateX(0px) translateY(-100px);
+}
+
 .rot-left {
 	font-size: 40px;
 	font-family: 'Wire One', sans-serif;
