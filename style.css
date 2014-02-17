@@ -1,0 +1,686 @@
+/*Css stylesheet*/
+/*Creative 22 purely css animation for personal and commercial use for free*/
+/*© Daxeel Soni*/
+a {
+	color: #0067e7;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	text-decoration: none;
+	border-bottom: 1px solid #0067e7;
+}
+a:hover {
+    border-bottom: 1px dashed #0067e7;
+}
+.main {
+	width: 100%;
+	text-align: center;
+}
+.dots {
+	color: white;
+	cursor: default;
+}
+
+.highlight {
+	font-size: 40px;
+	font-family: 'Wire One', sans-serif;
+	height: 40px;
+	width: 70px;
+	padding-left: 10px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin: 20px;
+	color: #0067e7;
+	border: 1px solid #0067e7;
+	cursor: default;
+	transition:All 0.5s ease;
+    -webkit-transition:All 0.5s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+
+}
+.highlight:hover {
+	background-color: #0067e7;
+	color: #fff;
+	border: 2px solid #0067e7;
+}
+
+.fading {
+	font-size: 40px;
+	font-family: 'Wire One', sans-serif;
+	height: 40px;
+	width: 70px;
+	padding-left: 10px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin: 20px;
+	color: #0067e7;
+	border: 1px solid #0067e7;
+	cursor: default;
+	transition:All 0.5s ease;
+    -webkit-transition:All 0.5s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+
+}
+.fading:hover {
+	color: #fff;
+	border: 0px;
+}
+
+.border {
+	font-size: 40px;
+	font-family: 'Wire One', sans-serif;
+	height: 40px;
+	width: 70px;
+	padding-left: 10px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin: 20px;
+	color: #0067e7;
+	border: 1px solid #0067e7;
+	cursor: default;
+	transition:All 0.5s ease;
+    -webkit-transition:All 0.5s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+
+}
+.border:hover {
+	border: 1px dashed;
+}
+
+
+.popup {
+	font-size: 40px;
+	font-family: 'Wire One', sans-serif;
+	height: 40px;
+	width: 70px;
+	padding-left: 10px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin: 20px;
+	color: #0067e7;
+	border: 1px solid #0067e7;
+	cursor: default;
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+    transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -moz-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -o-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -ms-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+}
+.popup:hover{
+    transform: rotate(0deg) scale(2) skew(0deg) translate(0px);
+    -webkit-transform: rotate(0deg) scale(2) skew(0deg) translate(0px);
+    -moz-transform: rotate(0deg) scale(2) skew(0deg) translate(0px);
+    -o-transform: rotate(0deg) scale(2) skew(0deg) translate(0px);
+    -ms-transform: rotate(0deg) scale(2) skew(0deg) translate(0px);
+}
+
+.popdown {
+	font-size: 40px;
+	font-family: 'Wire One', sans-serif;
+	height: 40px;
+	width: 70px;
+	padding-left: 10px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin: 20px;
+	color: #0067e7;
+	border: 1px solid #0067e7;
+	cursor: default;
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+    transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -moz-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -o-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -ms-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+}
+.popdown:hover{
+    transform: rotate(0deg) scale(0) skew(0deg) translate(0px);
+    -webkit-transform: rotate(0deg) scale(0) skew(0deg) translate(0px);
+    -moz-transform: rotate(0deg) scale(0) skew(0deg) translate(0px);
+    -o-transform: rotate(0deg) scale(0) skew(0deg) translate(0px);
+    -ms-transform: rotate(0deg) scale(0) skew(0deg) translate(0px);
+}
+
+.dis-left {
+	font-size: 40px;
+	font-family: 'Wire One', sans-serif;
+	height: 40px;
+	width: 70px;
+	padding-left: 10px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin: 20px;
+	color: #0067e7;
+	border: 1px solid #0067e7;
+	cursor: default;
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+    transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -moz-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -o-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -ms-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+}
+.dis-left:hover {
+    transform: rotate(0deg) scale(0.817) skew(70deg) translate(0px);
+    -webkit-transform: rotate(0deg) scale(0.817) skew(70deg) translate(0px);
+    -moz-transform: rotate(0deg) scale(0.817) skew(70deg) translate(0px);
+    -o-transform: rotate(0deg) scale(0.817) skew(70deg) translate(0px);
+    -ms-transform: rotate(0deg) scale(0.817) skew(70deg) translate(0px);
+}
+
+.dis-right {
+	font-size: 40px;
+	font-family: 'Wire One', sans-serif;
+	height: 40px;
+	width: 70px;
+	padding-left: 10px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin: 20px;
+	color: #0067e7;
+	border: 1px solid #0067e7;
+	cursor: default;
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+    transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -moz-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -o-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -ms-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+}
+.dis-right:hover {
+    transform: rotate(0deg) scale(0.817) skew(-70deg) translate(0px);
+    -webkit-transform: rotate(0deg) scale(0.817) skew(-70deg) translate(0px);
+    -moz-transform: rotate(0deg) scale(0.817) skew(-70deg) translate(0px);
+    -o-transform: rotate(0deg) scale(0.817) skew(-70deg) translate(0px);
+    -ms-transform: rotate(0deg) scale(0.817) skew(-70deg) translate(0px);
+}
+
+.trans-right {
+	font-size: 40px;
+	font-family: 'Wire One', sans-serif;
+	height: 40px;
+	width: 70px;
+	padding-left: 10px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin: 20px;
+	color: #0067e7;
+	border: 1px solid #0067e7;
+	cursor: default;
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+    transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -moz-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -o-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -ms-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+}
+.trans-right:hover {
+    transform: rotate(0deg) scale(0) skew(0deg) translate(100px);
+    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(100px);
+    -moz-transform: rotate(0deg) scale(1) skew(0deg) translate(100px);
+    -o-transform: rotate(0deg) scale(1) skew(0deg) translate(100px);
+    -ms-transform: rotate(0deg) scale(1) skew(0deg) translate(100px);
+}
+
+.trans-left {
+	font-size: 40px;
+	font-family: 'Wire One', sans-serif;
+	height: 40px;
+	width: 70px;
+	padding-left: 10px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin: 20px;
+	color: #0067e7;
+	border: 1px solid #0067e7;
+	cursor: default;
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+    transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -moz-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -o-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -ms-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+}
+.trans-left:hover {
+    transform: rotate(0deg) scale(0) skew(0deg) translate(-100px);
+    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(-100px);
+    -moz-transform: rotate(0deg) scale(1) skew(0deg) translate(-100px);
+    -o-transform: rotate(0deg) scale(1) skew(0deg) translate(-100px);
+    -ms-transform: rotate(0deg) scale(1) skew(0deg) translate(-100px);
+}
+
+.rot-left {
+	font-size: 40px;
+	font-family: 'Wire One', sans-serif;
+	height: 40px;
+	width: 70px;
+	padding-left: 10px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin: 20px;
+	color: #0067e7;
+	border: 1px solid #0067e7;
+	cursor: default;
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+    transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -moz-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -o-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -ms-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+}
+.rot-left:hover {
+    transform: rotate(-90deg) ;
+    -webkit-transform: rotate(-90deg) ;
+    -moz-transform: rotate(-90deg) ;
+    -o-transform: rotate(-90deg) ;
+    -ms-transform: rotate(-90deg) ;
+}
+
+.rot-right {
+	font-size: 40px;
+	font-family: 'Wire One', sans-serif;
+	height: 40px;
+	width: 70px;
+	padding-left: 10px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin: 20px;
+	color: #0067e7;
+	border: 1px solid #0067e7;
+	cursor: default;
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+    transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -moz-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -o-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -ms-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+}
+.rot-right:hover {
+    transform: rotate(90deg) ;
+    -webkit-transform: rotate(90deg) ;
+    -moz-transform: rotate(90deg) ;
+    -o-transform: rotate(90deg) ;
+    -ms-transform: rotate(90deg) ;
+}
+
+.rot-left-360 {
+	font-size: 40px;
+	font-family: 'Wire One', sans-serif;
+	height: 40px;
+	width: 70px;
+	padding-left: 10px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin: 20px;
+	color: #0067e7;
+	border: 1px solid #0067e7;
+	cursor: default;
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+    transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -moz-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -o-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -ms-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+}
+.rot-left-360:hover {
+    transform: rotate(-360deg) ;
+    -webkit-transform: rotate(-360deg) ;
+    -moz-transform: rotate(-360deg) ;
+    -o-transform: rotate(-360deg) ;
+    -ms-transform: rotate(-360deg) ;
+}
+
+.rot-right-360 {
+	font-size: 40px;
+	font-family: 'Wire One', sans-serif;
+	height: 40px;
+	width: 70px;
+	padding-left: 10px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin: 20px;
+	color: #0067e7;
+	border: 1px solid #0067e7;
+	cursor: default;
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+    transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -moz-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -o-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -ms-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+}
+.rot-right-360:hover {
+    transform: rotate(360deg) ;
+    -webkit-transform: rotate(360deg) ;
+    -moz-transform: rotate(360deg) ;
+    -o-transform: rotate(360deg) ;
+    -ms-transform: rotate(360deg) ;
+}
+
+.compress-x-axis {
+	font-size: 40px;
+	font-family: 'Wire One', sans-serif;
+	height: 40px;
+	width: 70px;
+	padding-left: 10px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin: 20px;
+	color: #0067e7;
+	border: 1px solid #0067e7;
+	cursor: default;
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+}
+.compress-x-axis:hover {
+    transform: scale(0.1, 0.996);
+    -webkit-transform: scale(0.1, 0.996);
+    -moz-transform: scale(0.1, 0.996);
+    -o-transform: scale(0.1, 0.996);
+    -ms-transform: scale(0.1, 0.996);
+}
+
+.compress-y-axis {
+	font-size: 40px;
+	font-family: 'Wire One', sans-serif;
+	height: 40px;
+	width: 70px;
+	padding-left: 10px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin: 20px;
+	color: #0067e7;
+	border: 1px solid #0067e7;
+	cursor: default;
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+}
+.compress-y-axis:hover {
+    transform: scale(0.996, 0.1);
+    -webkit-transform: scale(0.996, 0.1);
+    -moz-transform: scale(0.996, 0.1);
+    -o-transform: scale(0.996, 0.996);
+    -ms-transform: scale(0.996, 0.1);
+}
+
+.cust1 {
+	font-size: 40px;
+	font-family: 'Wire One', sans-serif;
+	height: 40px;
+	width: 70px;
+	padding-left: 10px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin: 20px;
+	color: #0067e7;
+	border: 1px solid #0067e7;
+	cursor: default;
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+    transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -moz-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -o-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -ms-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+}
+.cust1:hover {
+	background-color: #0067e7;
+	color: #fff;
+    transform: rotate(0deg) scale(4) skew(0deg) translate(100px);
+    -webkit-transform: rotate(0deg) scale(4) skew(0deg) translate(100px);
+    -moz-transform: rotate(0deg) scale(4) skew(0deg) translate(100px);
+    -o-transform: rotate(0deg) scale(4) skew(0deg) translate(100px);
+    -ms-transform: rotate(0deg) scale(4) skew(0deg) translate(100px);
+}
+
+.cust2 {
+	font-size: 40px;
+	font-family: 'Wire One', sans-serif;
+	height: 40px;
+	width: 70px;
+	padding-left: 10px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin: 20px;
+	color: #0067e7;
+	border: 1px solid #0067e7;
+	cursor: default;
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+    transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -moz-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -o-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -ms-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+}
+.cust2:hover {
+	background-color: #0067e7;
+	color: #fff;
+    transform: rotate(0deg) scale(-4) skew(0deg) translate(0px);
+    -webkit-transform: rotate(0deg) scale(-4) skew(0deg) translate(0px);
+    -moz-transform: rotate(0deg) scale(-4) skew(0deg) translate(0px);
+    -o-transform: rotate(0deg) scale(-4) skew(0deg) translate(0px);
+    -ms-transform: rotate(0deg) scale(-4) skew(0deg) translate(0px);
+}
+
+.cust3 {
+	font-size: 40px;
+	font-family: 'Wire One', sans-serif;
+	height: 40px;
+	width: 70px;
+	padding-left: 10px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin: 20px;
+	color: #0067e7;
+	border: 1px solid #0067e7;
+	cursor: default;
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+    transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -moz-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -o-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -ms-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+}
+.cust3:hover {
+	background-color: #0067e7;
+	color: #fff;
+    transform: rotate(360deg) scale(4) skew(0deg) translate(0px);
+    -webkit-transform: rotate(360deg) scale(4) skew(0deg) translate(0px);
+    -moz-transform: rotate(360deg) scale(4) skew(0deg) translate(0px);
+    -o-transform: rotate(360deg) scale(4) skew(0deg) translate(0px);
+    -ms-transform: rotate(360deg) scale(4) skew(0deg) translate(0px);
+}
+
+.cust4 {
+	font-size: 40px;
+	font-family: 'Wire One', sans-serif;
+	height: 40px;
+	width: 70px;
+	padding-left: 10px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin: 20px;
+	color: #0067e7;
+	border: 1px solid #0067e7;
+	cursor: default;
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+    transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -moz-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -o-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -ms-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+}
+.cust4:hover {
+	background-color: #0067e7;
+	color: #fff;
+    transform: rotate(360deg) scale(2) skew(0deg) translate(100px);
+    -webkit-transform: rotate(360deg) scale(2) skew(0deg) translate(100px);
+    -moz-transform: rotate(360deg) scale(2) skew(0deg) translate(100px);
+    -o-transform: rotate(360deg) scale(2) skew(0deg) translate(100px);
+    -ms-transform: rotate(360deg) scale(2) skew(0deg) translate(100px);
+}
+
+.cust5 {
+	font-size: 40px;
+	font-family: 'Wire One', sans-serif;
+	height: 40px;
+	width: 70px;
+	padding-left: 10px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin: 20px;
+	color: #0067e7;
+	border: 1px solid #0067e7;
+	cursor: default;
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+    transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -moz-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -o-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -ms-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+}
+.cust5:hover {
+	background-color: #0067e7;
+	color: #fff;
+    transform: rotate(360deg) scale(-2) skew(0deg) translate(0px);
+    -webkit-transform: rotate(360deg) scale(-2) skew(0deg) translate(0px);
+    -moz-transform: rotate(360deg) scale(-2) skew(0deg) translate(0px);
+    -o-transform: rotate(360deg) scale(-2) skew(0deg) translate(0px);
+    -ms-transform: rotate(360deg) scale(-2) skew(0deg) translate(0px);
+}
+
+.cust6 {
+	font-size: 40px;
+	font-family: 'Wire One', sans-serif;
+	height: 40px;
+	width: 70px;
+	padding-left: 10px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin: 20px;
+	color: #0067e7;
+	border: 1px solid #0067e7;
+	cursor: default;
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+    transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -moz-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -o-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -ms-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+}
+.cust6:hover {
+	background-color: #0067e7;
+	color: #fff;
+    transform: rotate(0deg) scale(-2) skew(0deg) translate(100px);
+    -webkit-transform: rotate(0deg) scale(-2) skew(0deg) translate(100px);
+    -moz-transform: rotate(0deg) scale(-2) skew(0deg) translate(100px);
+    -o-transform: rotate(0deg) scale(-2) skew(0deg) translate(100px);
+    -ms-transform: rotate(0deg) scale(-2) skew(0deg) translate(100px);
+}
+
+.cust7 {
+	font-size: 40px;
+	font-family: 'Wire One', sans-serif;
+	height: 40px;
+	width: 70px;
+	padding-left: 10px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin: 20px;
+	color: #0067e7;
+	border: 1px solid #0067e7;
+	cursor: default;
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+    transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -moz-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -o-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -ms-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+}
+.cust7:hover {
+	background-color: #0067e7;
+	color: #fff;
+    transform: rotate(1080deg) scale(4) skew(0deg) translate(100px);
+    -webkit-transform: rotate(1080deg) scale(4) skew(0deg) translate(100px);
+    -moz-transform: rotate(1080deg) scale(4) skew(0deg) translate(100px);
+    -o-transform: rotate(1080deg) scale(4) skew(0deg) translate(100px);
+    -ms-transform: rotate(1080deg) scale(4) skew(0deg) translate(100px);
+}
