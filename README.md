@@ -4,7 +4,7 @@ This is a collection of simple and creative pure css animation for personal and 
 
 Demo
 ====
-<a href="http://cssani.netai.net">Click here</a> for live demo.
+<a href="http://cssani.netai.net" target="_blank">Click here</a> for live demo.
 
 Contribution
 ============
@@ -12,4 +12,4 @@ This file has only nine styles. If you want to add more styles then contribute t
 
 License
 =======
-<a href="http://opensource.org/licenses/MIT">MIT</a> © Daxeel Soni
+<a href="http://opensource.org/licenses/MIT" target="_blank">MIT</a> © Daxeel Soni
