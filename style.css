@@ -1,6 +1,14 @@
-/*Css stylesheet*/
-/*Creative 24 purely css animation for personal and commercial use for free*/
-/*© Daxeel Soni*/
+/*
+ * animation.css V1.0.0
+ *
+ * Licensed under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ * 
+ * Copyright 2014, Daxeel Soni
+ * https://www.github.com/daxeel
+ *
+ */
+
 a {
 	color: #0067e7;
 	font-family: 'Alegreya Sans SC', sans-serif;
@@ -737,4 +745,132 @@ a:hover {
     -moz-transform: rotate(1080deg) scale(4) skew(0deg) translate(100px);
     -o-transform: rotate(1080deg) scale(4) skew(0deg) translate(100px);
     -ms-transform: rotate(1080deg) scale(4) skew(0deg) translate(100px);
+}
+
+.cust8 {
+	font-size: 40px;
+	font-family: 'Wire One', sans-serif;
+	height: 40px;
+	width: 70px;
+	padding-left: 10px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin: 20px;
+	color: #0067e7;
+	border: 1px solid #0067e7;
+	cursor: default;
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+
+}
+.cust8:hover {
+   -moz-transform: scale(1) translateX(0px) translateY(100px);
+   -webkit-transform: scale(1) translateX(0px) translateY(100px);
+   -o-transform: scale(1) translateX(10px) translateY(50px);
+   -ms-transform: scale(1) translateX(10px) translateY(50px);
+   transform: scale(1) translateX(10px) translateY(50px);
+}
+
+.box-1 {
+	border: 1px solid #0067e7;
+	background: url(3.jpg);
+	width: 200px;
+	height: 350px;
+	padding-top: 0px;
+	padding-left: 0px;
+}
+.small-small-box-1 {
+	opacity: 0.8;
+	background-color: black;
+	color: #fff;
+	margin-top: 150px;
+	width: 200px;
+	height: 50px;
+}
+.small-box-1 {
+	background-color: grey;
+	width: 170px;
+	height: 100px;
+	color: orange;
+	cursor: pointer;
+	font-size: 33px;
+	padding-top: 50px;
+	padding-left: 30px;
+	transition:All 0.5s ease;
+    -webkit-transition:All 0.5s ease;
+    -moz-transition:All 0.5s ease;
+    -o-transition:All 0.5s ease;
+}
+.small-box-1:hover {
+	height: 40px;
+	padding-top: 7px;
+    opacity: 0.5;
+    margin-bottom: 253px;
+}
+
+.box-2 {
+	border: 1px solid #0067e7;
+	background: url(3.jpg);
+	width: 200px;
+	height: 350px;
+	padding-top: 0px;
+	padding-left: 0px;
+}
+.small-small-box-2 {
+	opacity: 0.8;
+	background-color: black;
+	color: #fff;
+	margin-top: 150px;
+	width: 200px;
+	height: 50px;
+}
+.small-box-2 {
+	background-color: grey;
+	width: 170px;
+	height: 100px;
+	color: orange;
+	cursor: pointer;
+	font-size: 33px;
+	margin-bottom: 200px;
+	padding-top: 50px;
+	padding-left: 30px;
+	transition:All 0.5s ease;
+    -webkit-transition:All 0.5s ease;
+    -moz-transition:All 0.5s ease;
+    -o-transition:All 0.5s ease;
+}
+.small-box-2:hover {
+    opacity: 0;
+    margin-bottom: 150px;
+
+    transform: rotate(0deg) scale(1) skew(0deg) translate(200px);
+    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(200px);
+    -moz-transform: rotate(0deg) scale(1) skew(0deg) translate(200px);
+    -o-transform: rotate(0deg) scale(1) skew(0deg) translate(200px);
+    -ms-transform: rotate(0deg) scale(1) skew(0deg) translate(200px);
+}
+
+.box-3 {
+	border: 1px solid #0067e7;
+	width: 200px;
+	height: 350px;
+	padding-top: 0px;
+	padding-left: 0px;
+
+}
+.move-pic {
+	padding-left: 200px;
+	opacity: 0;
+	transition:All 0.5s ease;
+    -webkit-transition:All 0.5s ease;
+    -moz-transition:All 0.5s ease;
+    -o-transition:All 0.5s ease;
+
+}
+.move-pic:hover {
+	padding-left: 0px;
+	opacity: 1;
 }
