@@ -89,11 +89,6 @@ a:hover {
 	color: #0067e7;
 	border: 1px solid #0067e7;
 	cursor: default;
-	transition:All 0.5s ease;
-    -webkit-transition:All 0.5s ease;
-    -moz-transition:All 1s ease;
-    -o-transition:All 1s ease;
-
 }
 .border:hover {
 	border: 1px dashed;
@@ -457,11 +452,63 @@ a:hover {
     -ms-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
 }
 .rot-right-360:hover {
-    transform: rotate(360deg) ;
-    -webkit-transform: rotate(360deg) ;
-    -moz-transform: rotate(360deg) ;
-    -o-transform: rotate(360deg) ;
-    -ms-transform: rotate(360deg) ;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+}
+
+.rotate-x {
+	font-size: 40px;
+	font-family: 'Wire One', sans-serif;
+	height: 40px;
+	width: 70px;
+	padding-left: 10px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin: 20px;
+	color: #0067e7;
+	border: 1px solid #0067e7;
+	cursor: default;
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+}
+.rotate-x:hover {
+   -moz-transform: rotateY(0deg) rotateX(360deg);
+   -webkit-transform: rotateY(0deg) rotateX(360deg);
+   -o-transform: rotateY(0deg) rotateX(360deg);
+   -ms-transform: rotateY(0deg) rotateX(360deg);
+   transform: rotateY(0deg) rotateX(360deg);
+}
+
+.rotate-y {
+	font-size: 40px;
+	font-family: 'Wire One', sans-serif;
+	height: 40px;
+	width: 70px;
+	padding-left: 10px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin: 20px;
+	color: #0067e7;
+	border: 1px solid #0067e7;
+	cursor: default;
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+}
+.rotate-y:hover {
+   -moz-transform: rotateY(360deg) rotateX(0deg);
+   -webkit-transform: rotateY(360deg) rotateX(0deg);
+   -o-transform: rotateY(360deg) rotateX(0deg);
+   -ms-transform: rotateY(360deg) rotateX(0deg);
+   transform: rotateY(360deg) rotateX(0deg);
 }
 
 .compress-x-axis {
@@ -514,6 +561,233 @@ a:hover {
     -moz-transform: scale(0.996, 0.1);
     -o-transform: scale(0.996, 0.996);
     -ms-transform: scale(0.996, 0.1);
+}
+
+
+.rolling-px {
+	font-size: 40px;
+	font-family: 'Wire One', sans-serif;
+	height: 40px;
+	width: 70px;
+	padding-left: 10px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin: 20px;
+	color: #0067e7;
+	border: 1px solid #0067e7;
+	cursor: default;
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+
+}
+.rolling-px:hover {
+   -moz-transform: scale(1) translateX(200px) translateY(0px) rotate(360deg);
+   -webkit-transform: scale(1) translateX(200px) translateY(0px) rotate(360deg);
+   -o-transform: scale(1) translateX(200px) translateY(0px) rotate(360deg);
+   -ms-transform: scale(1) translateX(200px) translateY(0px) rotate(360deg);
+   transform: scale(1) translateX(200px) translateY(0px) rotate(360deg);
+}
+
+.rolling-nx {
+	font-size: 40px;
+	font-family: 'Wire One', sans-serif;
+	height: 40px;
+	width: 70px;
+	padding-left: 10px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin: 20px;
+	color: #0067e7;
+	border: 1px solid #0067e7;
+	cursor: default;
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+
+}
+.rolling-nx:hover {
+   -moz-transform: scale(1) translateX(-200px) translateY(0px) rotate(-360deg);
+   -webkit-transform: scale(1) translateX(-200px) translateY(0px) rotate(-360deg);
+   -o-transform: scale(1) translateX(-200px) translateY(0px) rotate(-360deg);
+   -ms-transform: scale(1) translateX(-200px) translateY(0px) rotate(-360deg);
+   transform: scale(1) translateX(-200px) translateY(0px) rotate(-360deg);
+}
+
+.rolling-py {
+	font-size: 40px;
+	font-family: 'Wire One', sans-serif;
+	height: 40px;
+	width: 70px;
+	padding-left: 10px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin: 20px;
+	color: #0067e7;
+	border: 1px solid #0067e7;
+	cursor: default;
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+
+}
+.rolling-py:hover {
+   -moz-transform: scale(1) translateX(0px) translateY(200px) rotate(450deg);
+   -webkit-transform: scale(1) translateX(0px) translateY(200px) rotate(450deg);
+   -o-transform: scale(1) translateX(0px) translateY(200px) rotate(450deg);
+   -ms-transform: scale(1) translateX(0px) translateY(200px) rotate(450deg);
+   transform: scale(1) translateX(0px) translateY(200px) rotate(450deg);
+}
+
+.rolling-ny {
+	font-size: 40px;
+	font-family: 'Wire One', sans-serif;
+	height: 40px;
+	width: 70px;
+	padding-left: 10px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin: 20px;
+	color: #0067e7;
+	border: 1px solid #0067e7;
+	cursor: default;
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+
+}
+.rolling-ny:hover {
+   -moz-transform: scale(1) translateX(0px) translateY(-200px) rotate(-450deg);
+   -webkit-transform: scale(1) translateX(0px) translateY(-200px) rotate(-450deg);
+   -o-transform: scale(1) translateX(0px) translateY(-200px) rotate(-450deg);
+   -ms-transform: scale(1) translateX(0px) translateY(-200px) rotate(-450deg);
+   transform: scale(1) translateX(0px) translateY(-200px) rotate(-450deg);
+}
+
+.rot-at-point-clockwise {
+	font-size: 40px;
+	font-family: 'Wire One', sans-serif;
+	height: 40px;
+	width: 70px;
+	padding-left: 10px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin: 20px;
+	color: #0067e7;
+	border: 1px solid #0067e7;
+	cursor: default;
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+
+}
+.rot-at-point-clockwise:hover {
+   -moz-transform: scale(1) translateX(00px) translateY(0px) rotate(360deg);
+   -webkit-transform: scale(1) translateX(00px) translateY(0px) rotate(360deg);
+   -o-transform: scale(1) translateX(00px) translateY(0px) rotate(360deg);
+   -ms-transform: scale(1) translateX(00px) translateY(0px) rotate(360deg);
+   transform: scale(1) translateX(00px) translateY(0px) rotate(360deg);
+    -webkit-transform-origin: bottom left;
+    -ms-transform-origin: bottom left;
+    transform-origin: bottom left;
+}
+
+.rot-at-point-anti-clockwise {
+	font-size: 40px;
+	font-family: 'Wire One', sans-serif;
+	height: 40px;
+	width: 70px;
+	padding-left: 10px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin: 20px;
+	color: #0067e7;
+	border: 1px solid #0067e7;
+	cursor: default;
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+
+}
+.rot-at-point-anti-clockwise:hover {
+   -moz-transform: scale(1) translateX(00px) translateY(0px) rotate(-360deg);
+   -webkit-transform: scale(1) translateX(00px) translateY(0px) rotate(-360deg);
+   -o-transform: scale(1) translateX(00px) translateY(0px) rotate(-360deg);
+   -ms-transform: scale(1) translateX(00px) translateY(0px) rotate(-360deg);
+   transform: scale(1) translateX(00px) translateY(0px) rotate(-360deg);
+    -webkit-transform-origin: bottom right;
+    -ms-transform-origin: bottom right;
+    transform-origin: bottom right;
+}
+
+.rotateX-popup {
+	font-size: 40px;
+	font-family: 'Wire One', sans-serif;
+	height: 40px;
+	width: 70px;
+	padding-left: 10px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin: 20px;
+	color: #0067e7;
+	border: 1px solid #0067e7;
+	cursor: default;
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+
+}
+.rotateX-popup:hover {
+	background-color: #0067e7;
+	color: #fff;
+   -moz-transform: scale(5) skew(0deg) translateX(0px) translateY(0px) rotateX(360deg) rotateY(0deg) rotate(0deg);
+   -webkit-transform: scale(5) skew(0deg) translateX(0px) translateY(0px) rotateX(360deg) rotateY(0deg) rotate(0deg);
+   -o-transform: scale(5) skew(0deg) translateX(0px) translateY(0px) rotateX(360deg) rotateY(0deg) rotate(0deg);
+   -ms-transform: scale(5) skew(0deg) translateX(0px) translateY(0px) rotateX(360deg) rotateY(0deg) rotate(0deg);
+   transform: scale(5) skew(0deg) translateX(0px) translateY(0px) rotateX(360deg) rotateY(0deg) rotate(0deg);
+}
+
+.rotateY-popup {
+	font-size: 40px;
+	font-family: 'Wire One', sans-serif;
+	height: 40px;
+	width: 70px;
+	padding-left: 10px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin: 20px;
+	color: #0067e7;
+	border: 1px solid #0067e7;
+	cursor: default;
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+
+}
+.rotateY-popup:hover {
+	background-color: #0067e7;
+	color: #fff;
+   -moz-transform: scale(5) skew(0deg) translateX(0px) translateY(0px) rotateX(0deg) rotateY(360deg) rotate(0deg);
+   -webkit-transform: scale(5) skew(0deg) translateX(0px) translateY(0px) rotateX(0deg) rotateY(360deg) rotate(0deg);
+   -o-transform: scale(5) skew(0deg) translateX(0px) translateY(0px) rotateX(0deg) rotateY(360deg) rotate(0deg);
+   -ms-transform: scale(5) skew(0deg) translateX(0px) translateY(0px) rotateX(0deg) rotateY(360deg) rotate(0deg);
+   transform: scale(5) skew(0deg) translateX(0px) translateY(0px) rotateX(0deg) rotateY(360deg) rotate(0deg);
 }
 
 .cust1 {
@@ -747,6 +1021,7 @@ a:hover {
     -ms-transform: rotate(1080deg) scale(4) skew(0deg) translate(100px);
 }
 
+
 .cust8 {
 	font-size: 40px;
 	font-family: 'Wire One', sans-serif;
@@ -767,11 +1042,47 @@ a:hover {
 
 }
 .cust8:hover {
-   -moz-transform: scale(1) translateX(0px) translateY(100px);
-   -webkit-transform: scale(1) translateX(0px) translateY(100px);
-   -o-transform: scale(1) translateX(10px) translateY(50px);
-   -ms-transform: scale(1) translateX(10px) translateY(50px);
-   transform: scale(1) translateX(10px) translateY(50px);
+   -moz-transform: scale(1) translateX(400px) translateY(400px) rotate(360deg);
+   -webkit-transform: scale(1) translateX(400px) translateY(400px) rotate(360deg);
+   -o-transform: scale(1) translateX(400px) translateY(400px) rotate(360deg);
+   -ms-transform: scale(1) translateX(400px) translateY(400px) rotate(360deg);
+   transform: scale(1) translateX(400px) translateY(400px) rotate(360deg);
+   opacity: 0;
+   background-color: #0067e7;
+	color: #fff;
+}
+
+.cust9 {
+	font-size: 40px;
+	font-family: 'Wire One', sans-serif;
+	height: 40px;
+	width: 70px;
+	padding-left: 10px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin: 20px;
+	color: #0067e7;
+	border: 1px solid #0067e7;
+	cursor: default;
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+
+}
+.cust9:hover {
+	background-color: #0067e7;
+	color: #fff;
+   -moz-transform: scale(1) skew(0deg) translateX(400px) translateY(-288px) rotateX(0deg) rotateY(360deg) rotate(360deg);
+   -webkit-transform: scale(1) skew(0deg) translateX(400px) translateY(-288px) rotateX(0deg) rotateY(360deg) rotate(360deg);
+   -o-transform: scale(1) skew(0deg) translateX(400px) translateY(-288px) rotateX(0deg) rotateY(360deg) rotate(360deg);
+   -ms-transform: scale(1) skew(0deg) translateX(400px) translateY(-288px) rotateX(0deg) rotateY(360deg) rotate(360deg);
+   transform: scale(1) skew(0deg) translateX(400px) translateY(-288px) rotateX(0deg) rotateY(360deg) rotate(360deg);
+    -webkit-transform-origin: bottom right;
+    -ms-transform-origin: bottom right;
+    transform-origin: bottom right;
+
 }
 
 .box-1 {
